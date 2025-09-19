@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-ADD https://gist.githubusercontent.com/hrchlhck/42650c887276f82216906a7a2727ae42/raw/3915ff45e26eb85c1bce19d53f9d89e397f7de35/requirements.txt /home/user/requirements.txt
+ADD https://gist.githubusercontent.com/hrchlhck/42650c887276f82216906a7a2727ae42/raw/2b10ae6b9bf9c9b92506e6f931644f0a09f82fda/requirements.txt /home/user/requirements.txt
 
 RUN useradd user -d /home/user && chown -R user:user /home/user/
 
